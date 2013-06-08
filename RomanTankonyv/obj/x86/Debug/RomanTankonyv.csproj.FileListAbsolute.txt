@@ -1,0 +1,12 @@
+c:\users\gery\documents\visual studio 2010\Projects\RomanTankonyv\RomanTankonyv\bin\Debug\RomanTankonyv.exe
+c:\users\gery\documents\visual studio 2010\Projects\RomanTankonyv\RomanTankonyv\bin\Debug\RomanTankonyv.pdb
+c:\users\gery\documents\visual studio 2010\Projects\RomanTankonyv\RomanTankonyv\obj\x86\Debug\RomanTankonyv.Form1.resources
+c:\users\gery\documents\visual studio 2010\Projects\RomanTankonyv\RomanTankonyv\obj\x86\Debug\RomanTankonyv.Properties.Resources.resources
+c:\users\gery\documents\visual studio 2010\Projects\RomanTankonyv\RomanTankonyv\obj\x86\Debug\RomanTankonyv.csproj.GenerateResource.Cache
+c:\users\gery\documents\visual studio 2010\Projects\RomanTankonyv\RomanTankonyv\obj\x86\Debug\RomanTankonyv.exe
+c:\users\gery\documents\visual studio 2010\Projects\RomanTankonyv\RomanTankonyv\obj\x86\Debug\RomanTankonyv.pdb
+c:\users\gery\documents\visual studio 2010\Projects\RomanTankonyv\RomanTankonyv\bin\Debug\Interop.WMPLib.dll
+c:\users\gery\documents\visual studio 2010\Projects\RomanTankonyv\RomanTankonyv\bin\Debug\AxInterop.WMPLib.dll
+c:\users\gery\documents\visual studio 2010\Projects\RomanTankonyv\RomanTankonyv\obj\x86\Debug\Interop.WMPLib.dll
+c:\users\gery\documents\visual studio 2010\Projects\RomanTankonyv\RomanTankonyv\obj\x86\Debug\AxInterop.WMPLib.dll
+c:\users\gery\documents\visual studio 2010\Projects\RomanTankonyv\RomanTankonyv\obj\x86\Debug\RomanTankonyv.csproj.ResolveComReference.cache
