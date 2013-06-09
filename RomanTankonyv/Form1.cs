@@ -14,6 +14,7 @@ namespace RomanTankonyv
 {
     public partial class Form1 : Form
     {
+        public int currentBackgroundIndex;
         public Form1()
         {
             InitializeComponent();
@@ -21,7 +22,9 @@ namespace RomanTankonyv
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            
+            Tools MyTools = new Tools();
+            MyTools.populatePages();
+            currentBackgroundIndex = 3;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -31,22 +34,13 @@ namespace RomanTankonyv
 
         }
 
-        public void ClearButtons()
-        {
-            for (int i = 0; i < this.Controls.Count; i++)
-            {
-                if (Controls[i] is Button)
-                {
-                    Controls.RemoveAt(i);
-                    i--;
-                }
-            }
-        }
+        
 
         private void button2_Click(object sender, EventArgs e)
         {
-            ClearButtons();
-            this.BackgroundImage = Properties.Resources._4;
+            Tools MyTools = new Tools();
+            MyTools.ClearButtons(this);
+            MyTools.NextBackground(this, currentBackgroundIndex + 1);
             
         }
     }
