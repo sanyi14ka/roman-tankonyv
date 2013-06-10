@@ -21,7 +21,6 @@ namespace RomanTankonyv
             fs.Close();
             mp.URL = fileInfo.Name;
             mp.controls.play();
-            
         }
     }
 }
