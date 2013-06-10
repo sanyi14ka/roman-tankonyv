@@ -11,7 +11,6 @@ namespace RomanTankonyv
     
     class Tools
     {
-        public Image[] images = new Image[10];
         public int currentBackgroundIndex;
         public void ClearButtons(Form f)
         {

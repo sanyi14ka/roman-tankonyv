@@ -23,7 +23,6 @@ namespace RomanTankonyv
         private void Form1_Load(object sender, EventArgs e)
         {
             Tools MyTools = new Tools();
-            MyTools.populatePages();
             currentBackgroundIndex = 3;
         }
 
@@ -40,8 +39,15 @@ namespace RomanTankonyv
         {
             Tools MyTools = new Tools();
             MyTools.ClearButtons(this);
-            MyTools.NextBackground(this, currentBackgroundIndex + 1);
+            MyTools.ChangeBackground(this, currentBackgroundIndex + 1);
             
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Tools MyTools = new Tools();
+            MyTools.ClearButtons(this);
+            MyTools.ChangeBackground(this, currentBackgroundIndex - 1);
         }
     }
 }
